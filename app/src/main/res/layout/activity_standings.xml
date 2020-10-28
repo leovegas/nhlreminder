@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:custom="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:layout_gravity="center"
+                                                   android:background="@drawable/background2"
+                                                   android:id="@+id/linearLayout">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            custom:layout_constraintTop_toTopOf="parent" android:layout_marginTop="30dp"
+            custom:layout_constraintStart_toStartOf="parent">
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical">
+                <TableLayout
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <TableRow android:layout_width="wrap_content" android:layout_height="match_parent"
+                              android:layout_weight="1"
+
+                              android:id="@+id/row101">
+                        <TextView
+                                android:text="NYR"
+                                android:layout_gravity="center"
+                                android:textSize="22sp"
+                                style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button10"/>
+                        <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="match_parent">
+                            <Button
+                                    android:text="Button"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" android:id="@+id/button8"/>
+                        </TableRow>
+                        <TableRow
+                                android:gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+
+                                android:layout_height="match_parent">
+                            <Button
+                                    android:text="Button"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" android:id="@+id/button7"/>
+                        </TableRow>
+                        <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="match_parent">
+                            <Button
+                                    android:text="Button"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" android:id="@+id/button9"/>
+                        </TableRow>
+                        <TableRow
+                                android:gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+
+                                android:layout_height="match_parent">
+                            <Button
+                                    android:text="Button"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" android:id="@+id/button7"/>
+                        </TableRow>
+                    </TableRow>
+                    <View
+                            android:layout_height="1dp"
+                            android:layout_width="fill_parent"
+                            android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:layout_weight="1"
+                              android:id="@+id/row101">
+                        <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_height="match_parent">
+                            <TextView
+                                    android:text="VGK"
+                                    android:textSize="22sp"
+                                    android:layout_gravity="center"
+
+                                    style="@style/Regular"
+                                    android:background="@android:color/transparent"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" android:id="@+id/button20"/>
+                        </TableRow>
+                        <TableRow
+                                android:gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+                            <TextView
+                                    android:text="VGK"
+                                    android:textSize="22sp"
+                                    android:layout_gravity="center"
+
+                                    style="@style/Regular"
+                                    android:background="@android:color/transparent"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" android:id="@+id/button19"/>
+                        </TableRow>
+                        <TableRow
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="25dp" custom:srcCompat="@drawable/rangers"
+                                    android:id="@+id/imageView101"/>
+                        </TableRow>
+                        <TextView
+                                android:text="VGK"
+                                android:textSize="22sp"
+                                android:layout_gravity="center"
+
+                                style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button18"/>
+                        <TableRow
+                                android:gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+                            <TextView
+                                    android:text="VGK"
+                                    android:textSize="22sp"
+                                    android:layout_gravity="center"
+
+                                    style="@style/Regular"
+                                    android:background="@android:color/transparent"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" android:id="@+id/button21"/>
+                        </TableRow>
+                    </TableRow>
+                    <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row101">
+                        <TableRow
+                                android:gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+
+                                android:layout_height="match_parent">
+                            <Button
+                                    android:text="Button"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" android:id="@+id/button7"/>
+                        </TableRow>
+                        <TableRow
+                                android:gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/vegas"
+                                    android:id="@+id/imageView101"/>
+                        </TableRow>
+                        <TextView
+                                android:text="VGK"
+                                android:textSize="22sp"
+                                android:layout_gravity="center"
+
+                                style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button101"/>
+                        <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_height="match_parent">
+                            <TextView
+                                    android:text="NYR"
+                                    android:layout_gravity="center"
+                                    android:textSize="22sp"
+                                    style="@style/Regular"
+                                    android:background="@android:color/transparent"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" android:id="@+id/button13"/>
+                        </TableRow>
+                        <TableRow
+                                android:layout_width="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_height="match_parent">
+                            <TextView
+                                    android:text="NYR"
+                                    android:layout_gravity="center"
+                                    android:textSize="22sp"
+                                    style="@style/Regular"
+                                    android:background="@android:color/transparent"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" android:id="@+id/button14"/>
+                        </TableRow>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row102">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/toronto"
+                                    android:id="@+id/imageView102"/>
+                        </TableRow>
+                        <TextView
+                                android:text="TOR"
+                                android:textSize="22sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button102"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row103">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/tampa"
+                                    android:id="@+id/imageView103"/>
+                        </TableRow>
+                        <TextView
+                                android:text="TBL"
+                                android:textSize="22sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button103"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row104">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/vancouver"
+                                    android:id="@+id/imageView104"/>
+                        </TableRow>
+                        <TextView
+                                android:text="VAN"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button104"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row105">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/washington"
+                                    android:id="@+id/imageView105"/>
+                        </TableRow>
+                        <TextView
+                                android:text="WSH"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button105"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row106">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/minnessota"
+                                    android:id="@+id/imageView106"/>
+                        </TableRow>
+                        <TextView
+                                android:text="MIN"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button106"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row107">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/colambus"
+                                    android:id="@+id/imageView107"/>
+                        </TableRow>
+                        <TextView
+                                android:text="CBJ"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                 
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button107"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row108">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/ottawa"
+                                    android:id="@+id/imageView108"/>
+                        </TableRow>
+                        <TextView
+                                android:text="SEN"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button108"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row109">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/pitsburg"
+                                    android:id="@+id/imageView109"/>
+                        </TableRow>
+                        <TextView
+                                android:text="PIT"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button109"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row110">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/filadelfia"
+                                    android:id="@+id/imageView110"/>
+                        </TableRow>
+                        <TextView
+                                android:text="PHI"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button110"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row111">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/arizona"
+                                    android:id="@+id/imageView111"/>
+                        </TableRow>
+                        <TextView
+                                android:text="ARI"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button111"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row112">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/sharks"
+                                    android:id="@+id/imageView112"/>
+                        </TableRow>
+                        <TextView
+                                android:text="SJS"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button112"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row113">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/blues"
+                                    android:id="@+id/imageView113"/>
+                        </TableRow>
+                        <TextView
+                                android:text="STL"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button113"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row114">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/florida"
+                                    android:id="@+id/imageView114"/>
+                        </TableRow>
+                        <TextView
+                                android:text="FLA"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button114"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row115">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/monreal"
+                                    android:id="@+id/imageView115"/>
+                        </TableRow>
+                        <TextView
+                                android:text="MTL"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button115"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row116">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/nashvill"
+                                    android:id="@+id/imageView116"/>
+                        </TableRow>
+                        <TextView
+                                android:text="NSH"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button116"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row117">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/devils"
+                                    android:id="@+id/imageView117"/>
+                        </TableRow>
+                        <TextView
+                                android:text="NJD"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button117"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row118">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/islanders"
+                                    android:id="@+id/imageView118"/>
+                        </TableRow>
+                        <TextView
+                                android:text="NYI"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button118"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row119">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/la"
+                                    android:id="@+id/imageView119"/>
+                        </TableRow>
+                        <TextView
+                                android:text="LAK"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button119"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row120">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/winnipeg"
+                                    android:id="@+id/imageView120"/>
+                        </TableRow>
+                        <TextView
+                                android:text="WPG"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button120"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row121">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/buffalo"
+                                    android:id="@+id/imageView121"/>
+                        </TableRow>
+                        <TextView
+                                android:text="BUF"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button121"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row122">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/boston"
+                                    android:id="@+id/imageView122"/>
+                        </TableRow>
+                        <TextView
+                                android:text="BOS"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button122"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row123">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/calgary"
+                                    android:id="@+id/imageView123"/>
+                        </TableRow>
+                        <TextView
+                                android:text="CGY"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button123"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row124">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/carolina"
+                                    android:id="@+id/imageView124"/>
+                        </TableRow>
+                        <TextView
+                                android:text="CAR"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button124"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row125">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/chicago"
+                                    android:id="@+id/imageView125"/>
+                        </TableRow>
+                        <TextView
+                                android:text="CHI"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button125"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row126">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/colorado"
+                                    android:id="@+id/imageView126"/>
+                        </TableRow>
+                        <TextView
+                                android:text="COL"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button126"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row127">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/dallas"
+                                    android:id="@+id/imageView127"/>
+                        </TableRow>
+                        <TextView
+                                android:text="DAL"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button127"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row128">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/detroit"
+                                    android:id="@+id/imageView128"/>
+                        </TableRow>
+                        <TextView
+                                android:text="DET"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button128"/>
+                    </TableRow>
+                                   <View
+                        android:layout_height="1dp"
+                        android:layout_width="fill_parent"
+                        android:background="@color/black_overlay"/>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row129">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/oilers"
+                                    android:id="@+id/imageView129"/>
+                        </TableRow>
+                        <TextView
+                                android:text="EDM"
+                                android:textSize="18sp"
+ style="@style/Regular"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button129"/>
+                    </TableRow>
+                    <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/row130">
+                        <TableRow
+                                android:layout_width="100dp"
+                                android:layout_height="match_parent">
+                            <ImageView
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginBottom="3dp"
+                                    android:layout_marginStart="50dp"
+                                    android:layout_width="50dp"
+                                    android:layout_height="match_parent" custom:srcCompat="@drawable/anaheim"
+                                    android:id="@+id/imageView130"/>
+                        </TableRow>
+                        <TextView
+                                android:text="ANA"
+                                style="@style/Regular"
+                                android:textSize="18sp"
+                                android:background="@android:color/transparent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:id="@+id/button130"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+    <TextView
+            android:text="Go back"
+            android:visibility="visible"
+            android:background="@color/black_overlay"
+            android:layout_width="0dp"
+            android:layout_height="30dp" android:id="@+id/button"
+            custom:layout_constraintEnd_toEndOf="parent"
+            custom:layout_constraintTop_toTopOf="parent" custom:layout_constraintStart_toStartOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

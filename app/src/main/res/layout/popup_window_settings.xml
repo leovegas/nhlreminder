@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/layout_popup2"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical|center_horizontal"
+              android:orientation="vertical" >
+    <LinearLayout
+            android:background="@drawable/background2"
+            android:orientation="vertical"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="400dp"
+            android:layout_height="300dp">
+
+        <TableLayout
+                android:background="@color/table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView
+                        android:text="Allow notifications"
+                        android:padding="20dp"
+                        android:paddingStart="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView32"/>
+                <Switch
+                        android:layout_gravity="left"
+                        android:padding="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/switch1"/>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView
+                        android:text="Alerts settings"
+                        android:padding="20dp"
+                        android:paddingStart="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView33"/>
+                <RadioGroup
+                        android:padding="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    <RadioButton
+                            android:text="1 hour before"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:id="@+id/radioButton4"
+                            android:layout_weight="1"/>
+                    <RadioButton
+                            android:text="30 min before"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:id="@+id/radioButton3"
+                            android:layout_weight="1"/>
+                    <RadioButton
+                            android:text="15 min before"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:id="@+id/radioButton2"
+                            android:layout_weight="1"/>
+                    <RadioButton
+                            android:text="Just before begining"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" android:id="@+id/radioButton"
+                            android:layout_weight="1"/>
+                </RadioGroup>
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="match_parent"
+            >
+                <Button
+                        android:layout_gravity="center_horizontal"
+
+                        android:text="Save"
+                        android:onClick="onClick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/button4" android:layout_weight="1"/>
+                <Button
+                        android:layout_gravity="center_horizontal"
+
+                        android:text="Cancel"
+                        android:onClick="onClick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/button6" android:layout_weight="1"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

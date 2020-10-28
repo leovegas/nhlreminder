@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">NHLreminder</string>
+    <string name="title_home">Your favotite team?</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_activity_start">start</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_choose">ChooseActivity</string>
+    <string name="title_section1">Dallas</string>
+    <string name="Dallas">Dallas</string>
+    <string name="Rangers">Rangers</string>
+    <string name="Washington">Washington</string>
+    <string name="Tampa">Tampa</string>
+    <string name="Anaheim">Anaheim Ducks</string>
+    <string name="Arizona">Arizona Coyotes</string>
+    <string name="Calgary">Calgary Flames</string>
+    <string name="Edmonton">Edmonton Oilers</string>
+    <string name="LosAngeles">Los Angeles Kings</string>
+    <string name="SanJose">San Jose Sharks</string>
+    <string name="Vancouver">Vancouver Canucks</string>
+    <string name="Vegas">Vegas Golden Knights</string>
+    <string name="Chicago">Chicago Blackhawks</string>
+    <string name="Colorado">Colorado Avalanche</string>
+    <string name="DallasStars">Dallas Stars</string>
+    <string name="Minnesota">Minnesota Wild</string>
+    <string name="Nashville">Nashville Predators</string>
+    <string name="Blues">St. Louis Blues</string>
+    <string name="Winnipeg">Winnipeg Jets</string>
+    <string name="Boston">Boston Bruins</string>
+    <string name="Buffalo">Buffalo Sabres</string>
+    <string name="Detroit">Detroit Red Wings</string>
+    <string name="Florida">Florida Panthers</string>
+    <string name="Montreal">Montreal Canadiens</string>
+    <string name="Ottawa">Ottawa Senators</string>
+    <string name="TampaBay">Tampa Bay Lightning</string>
+    <string name="Toronto">Toronto Maple Leafs</string>
+    <string name="Carolina">Carolina Hurricanes</string>
+    <string name="Columbus">Columbus Blue Jackets</string>
+    <string name="NewJersey">New Jersey Devils</string>
+    <string name="Islanders">New York Islanders</string>
+    <string name="NYRangers">New York Rangers</string>
+    <string name="Philadelphia">Philadelphia Flyers</string>
+    <string name="Pittsburgh">Pittsburgh Penguins</string>
+    <string name="WashingtonCap">Washington Capitals</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_alarms_list">AlarmsList</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message
+        history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value"/>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_settings2">Settings</string>
+    <string name="title_activity_navdraw">navdraw</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="simple_nhl_app">NHL on time</string>
+    <string name="keep_up_to_date_even_if_busy">Keep up with NHL even if busy</string>
+</resources>

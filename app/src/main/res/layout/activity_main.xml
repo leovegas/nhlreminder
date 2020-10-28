@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                               xmlns:app="http://schemas.android.com/apk/res-auto"
+                                               xmlns:tools="http://schemas.android.com/tools"
+                                               android:id="@+id/drawer_layout"
+                                               android:layout_width="match_parent"
+                                               android:layout_height="match_parent"
+                                               android:fitsSystemWindows="true"
+                                               tools:context="com.nhl.MainActivity"
+                                               tools:openDrawer="start">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar"
+                                               app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                                               xmlns:android="http://schemas.android.com/apk/res/android"
+                                               xmlns:app="http://schemas.android.com/apk/res-auto"
+                                               android:layout_width="match_parent"
+                                               android:layout_height="34dp"
+                                               android:theme="@style/MyAppTheme"
+                                               android:background="@color/black_overlay"
+                                               android:elevation="4dp">
+
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_gravity="left"
+                        android:gravity="center">
+
+                    <Button
+                            android:visibility="gone"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginEnd="5dp"
+                            android:background="@drawable/list_black_24dp"
+                            android:id="@+id/button1"/>
+                    <SearchView
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/search"
+                            android:iconifiedByDefault="false"
+                            android:queryHint="Search players here">
+                    </SearchView>
+
+                    <Button
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:visibility="gone"
+
+                            android:layout_marginEnd="20dp"
+                            android:background="@drawable/alarm_black1"
+                            android:id="@+id/button2"/>
+
+                    <Button
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:visibility="gone"
+
+                            android:background="@drawable/ic_info_24dp"
+                            android:id="@+id/button3"/>
+
+                </LinearLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <include layout="@layout/content_all"/>
+
+            <FrameLayout
+                    android:id="@+id/fragment_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <com.google.android.material.navigation.NavigationView
+                android:id="@+id/nav_view"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                app:headerLayout="@layout/nav_header"
+                app:menu="@menu/drawer_menu" />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
